@@ -1,0 +1,131 @@
+@import "variables";
+
+.oti-color {
+  color: $oti-brown;
+}
+
+.nv-color {
+  color: $nv-green;
+}
+
+.w-150 {
+  width: 150px !important;
+}
+
+.w-200 {
+  width: 200px !important;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-50 {
+  margin-top: 50px !important;
+}
+
+.mt-100 {
+  margin-top: 100px !important;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-21 {
+  font-size: 21px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.center-div {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fullscreen-height {
+  height:100vh;
+}
+
+.full-width {
+  width:100%;
+}
+
+.vertical-align {
+  align-items: center;
+}
+
+.vertical-align-bottom {
+  align-self: flex-end;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.el-input,
+.el-textarea {
+  .el-input__inner,
+  .el-textarea__inner {
+    border-radius: 10px;
+    box-shadow: 0px 11px 13px 0px rgba(0, 0, 0, 0.25);
+    z-index: 15;
+    border-width: 2px;
+    transition: all 0.2s ease-in-out;
+    border-color: $oti-brown;
+    &:hover,
+    &:focus {
+      transition: all 0.2s ease-in-out;
+      border-color: $nv-green;
+    }
+  }
+}
+
+.el-input {
+  .el-input__inner {
+    line-height: 30px;
+    height: 30px;
+  }
+}
+
+.el-button{
+  padding:8px 15px !important;
+}
+
+.el-radio__input {
+  &.is-checked {
+    .el-radio__inner {
+      border-color: $nv-green !important;
+      background: $nv-green !important;
+    }
+    &+.el-radio__label {
+      color: $nv-green !important;
+    }
+  }
+}
+
+.is-invalid {
+  .el-input__inner,
+  .el-textarea__inner {
+    border-color: #db443b !important;
+  }
+}

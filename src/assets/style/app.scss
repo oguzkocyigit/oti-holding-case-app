@@ -1,0 +1,52 @@
+@import "variables";
+@import "../../assets/style/globals";
+@import "~bulma/bulma";
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600&display=swap');
+
+
+#app {
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #5b5b5b;
+  position: relative;
+
+  .wrapper {
+    padding: 0 300px;
+  }
+}
+
+.site-bar {
+  background: $oti-brown;
+  margin-bottom: 50px;
+}
+
+.back-btn {
+  padding:3px 10px;
+  border-color:white;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: $nv-green;
+    color: #fff;
+    border-color: $nv-green;
+    transition: all 0.2s ease-in-out;
+  }
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.submit-btn {
+  background: $oti-brown !important;
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: $nv-green !important;
+    color: #fff !important;
+    transition: all 0.2s ease-in-out;
+  }
+}

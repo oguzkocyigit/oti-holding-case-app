@@ -1,0 +1,27 @@
+@import "../assets/style/variables";
+
+
+
+.book-table-view__index {
+  .detail-icon {
+    color: $oti-brown;
+    font-size:21px;
+    cursor: pointer;
+    &:hover {
+      color: $nv-green;
+    }
+  }
+
+  .el-table {
+    .el-table__header {
+      tr {
+        th {
+          background: $oti-brown !important;
+          color: #ffffff !important;
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

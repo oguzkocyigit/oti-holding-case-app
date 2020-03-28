@@ -1,0 +1,23 @@
+@import "../../assets/style/variables";
+
+.book-list-page__index {
+  padding: 0 50px;
+}
+.add-btn {
+  background: $oti-brown;
+  color:#fff;
+  transition: all 0.2s ease-in-out;
+  border-color: $oti-brown;
+  padding:5px 6px;
+  display: block;
+  float: right;
+  font-size: 12px;
+  i {
+    font-size: 12px;
+  }
+  &:hover {
+    background: $nv-green;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+}
